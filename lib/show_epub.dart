@@ -168,8 +168,7 @@ class ShowEpubState extends State<ShowEpub> {
   }
 
   reLoadChapter({bool init = false, int index = -1}) async {
-    int currentIndex =
-        bookProgress.getBookProgress(bookId).currentChapterIndex ?? 0;
+    int currentIndex = bookProgress.getBookProgress(bookId).currentChapterIndex ?? 0;
 
     if (widget.lockedChapters.contains(currentIndex)) {
       CustomToast.showToast("This chapter is locked for free users.");
