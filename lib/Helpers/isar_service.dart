@@ -20,6 +20,7 @@ class IsarService {
         [BookProgressModelSchema],
         name: 'hive_epub',
         directory: dir.path,
+        inspector: false,
       );
 
       IsarService._create(isar);

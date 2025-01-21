@@ -12,8 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  isar:
+  isar: ^3.1.0+1
   isar_flutter_libs:
+    git:
+      url: https://github.com/MrLittleWhite/isar_flutter_libs.git
   screen_brightness: ^1.0.1
   epubx: ^4.0.0
   fluttertoast: ^8.2.5
@@ -35,7 +37,8 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-  isar_generator:
+  isar_generator: any
+
   build_runner: ^2.4.6
 
 # For information on the generic Dart part of this file, see the
